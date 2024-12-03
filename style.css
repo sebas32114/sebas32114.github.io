@@ -63,12 +63,13 @@ h1 {
 
 p {
     text-align: justify;
+    text-wrap: pretty;
 }
 
 section {
-    width: 60%;
-    margin: 20px 0;
-    
+    max-width: 140vh;
+    margin: 20px;
+    text-align: justify;
 }
 
 footer {
@@ -83,5 +84,9 @@ h2 {
 
 h4 {
     display: inline-block;
+}
+
+.pp {
+    text-align: justify;
 }
 
